@@ -35,11 +35,11 @@ add-plugins:
         max_retry_time: 60
       queue_size: null
       retry_count: null
-      timeout: 10000
-      enabled: true
-      name: http-log
-      protocols:
-      - grpc
-      - grpcs
-      - http
-      - https
+    timeout: 10000
+    enabled: true
+    name: http-log
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
