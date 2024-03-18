@@ -1,7 +1,7 @@
 _format_version: "3.0"
 plugins:
 - config:
-    allowed_payload_size: 10
+    allowed_payload_size: 20
     require_content_length: false
     size_unit: kilobytes
   enabled: true
